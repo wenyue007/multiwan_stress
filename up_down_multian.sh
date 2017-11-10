@@ -111,6 +111,13 @@ do
      net_status $time
      checking_gateway
 
+     wifi_up
+     net_status $time
+     checking_gateway
+     
+     wifi_down
+     net_status $time
+     checking_gateway
      let loop_n+=1
 done
 
